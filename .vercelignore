@@ -1,0 +1,14 @@
+.git
+.next
+.vercel
+node_modules
+.env*
+artifacts
+test-results
+playwright-report
+tests
+playwright*.config.ts
+*.tsbuildinfo
+*.log
+AGENTS.md
+CLAUDE.md
