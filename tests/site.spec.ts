@@ -14,7 +14,9 @@ test("gallery switches project and opens the corresponding page", async ({
   page,
 }) => {
   await page.goto("/");
-  await expect(page.locator("h1")).toHaveText("Stogai, kuriesaugo istoriją.");
+  await expect(page.locator("h1")).toHaveText(
+    "Įrengiame stogus, kurie kalba patys už save.",
+  );
   await page
     .getByRole("button", { name: "Kitas projektas", exact: true })
     .click();

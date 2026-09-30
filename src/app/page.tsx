@@ -21,21 +21,24 @@ export default function Home() {
       <Reveal />
       <section className="hero-intro container">
         <h1>
-          Stogai, kurie
+          Įrengiame stogus,{" "}
           <br />
-          <span>saugo istoriją.</span>
+          <span>
+            kurie kalba{" "}
+            <br />
+            patys už save.
+          </span>
         </h1>
         <div className="hero-copy">
           <p>
-            Nuo jūsų namų iki Lietuvos simbolių.
-            <br />
-            Stogų meistrystė, kuria pasitiki kartos.
+            Stogų įrengimas, renovacija ir remontas – nuo privačių namų iki
+            kultūros paveldo objektų.
           </p>
           <Link
             className="button button-dark hero-inquiry"
             href={inquiryHref({ source: "/" })}
           >
-            Aptarkime projektą <ArrowUpRight size={18} />
+            Aptarkime jūsų stogą <ArrowUpRight size={18} />
           </Link>
           <a href="#projektai" className="text-link">
             Susipažinkite su mūsų darbais{" "}
